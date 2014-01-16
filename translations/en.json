@@ -1,0 +1,25 @@
+{
+  "app": {
+    "package": "app_name",
+    "description": {
+      "value": "Display links to the original comment email.",
+      "title": "app description"
+    },
+    "name": {
+      "value": "Show Original Email",
+      "title": "app name"
+    }
+  },
+
+  "loading": {
+    "value": "Welcome to this Sample App",
+    "title": "loading placeholder"
+  },
+
+  "errors": {
+    "empty_comments": {
+      "value": "No email comment to display.",
+      "title": "empty comments error"
+    }
+  }
+}

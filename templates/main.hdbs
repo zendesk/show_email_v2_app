@@ -1,0 +1,11 @@
+<ul>
+  {{#each comments}}
+  <li>
+    <a onclick="window.open('/audits/{{audit_id}}/email.html#html','emailWindow','toolbar=0, menubar=0, width=620, height=594, location=0, status=0, directories=0, scrollbars=1'); return false;" title="{{html_body}}" data-toggle="tooltip">
+      {{author.name}} - {{created_at}}
+    </a>
+  </li>
+  {{else}}
+  <p><strong>{{t "errors.empty_comments"}}</strong></p>
+  {{/each}}
+</ul>

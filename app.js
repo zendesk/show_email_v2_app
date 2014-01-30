@@ -44,7 +44,7 @@
         return memo;
       }, []);
 
-      this.switchTo('main', { comments: comments });
+      this.switchTo('main', { comments: comments.reverse() });
 
       this.$('a').tooltip({ placement: 'left', html: true });
     }

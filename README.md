@@ -13,7 +13,7 @@ Display links to the original comment emails.
 
 Nothing special, you only need to install the app.
 
-## Demo
+## Screenshot(s)
 
 ![Demo gif](http://cl.ly/image/3J1q2247141Y/show_email_app.gif)
 
